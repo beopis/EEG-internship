@@ -94,12 +94,16 @@ crea.Lfin.Lsogg <- function(Lsogg, quante.finestre) {
   Lfin
 }
 
+
+
 #### ---- function 5   ---- 
 #### ---- function 5   ---- 
 
 mediacamp.matrice.V4 <- function(Lsogg) {
   Reduce(`+`, Lsogg) / length(Lsogg)
 }
+
+
 
 #### ---- function 6   ---- 
 #### ---- function 6   ---- 
